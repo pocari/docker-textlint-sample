@@ -1,0 +1,7 @@
+version: '3.3'
+services:
+  linter:
+    build:
+      context: .
+    volumes:
+      - .:/usr/src/app
